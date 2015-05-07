@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  pool: 25
+  timeout: 5000
+  encoding: utf8
+
+development:
+  <<: *default
+  database: my_money_garden_development
+  username: postgres
+  password: postgres
+
+test:
+  <<: *default
+  database: my_money_garden_test
+  username: postgres
+  password: postgres
