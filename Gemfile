@@ -38,3 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Generate haml views, not erb
+#gem 'haml-rails'
+
+# Use rspec for tests, not test-unit
+gem 'rspec-rails'
